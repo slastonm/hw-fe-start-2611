@@ -6,6 +6,201 @@
     <title>Document</title>
 </head>
 <body>
-    Home work
+    <ol type="I" start="5" reversed>
+        <!-- <h3>Помилка </h3> -->
+         <!-- <p>Помилка</p> -->
+        <li>
+            <h3>
+                Buy milk
+            </h3>
+        </li>
+        <li>
+            Buy milk
+        </li>
+        <li>Buy <strong>chicken</strong></li>
+        <li>
+            Buy milk
+        </li>
+        <li>Buy <strong>chicken</strong></li>
+        <li>
+            Buy milk
+        </li>
+        <li>Buy <strong>chicken</strong></li>
+    </ol>
+    <div>
+        Div block
+    </div>
+    <!-- Semantic tag -->
+    <header>
+        Top site part
+    </header>
+    <nav>
+        Site navigation
+    </nav>
+    <main>
+        Main site part
+    </main>
+    <aside>
+        Side site part
+    </aside>
+    <section>
+        Section content about product
+    </section>
+
+    <section>
+        <article>
+            <h3>
+                article title
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint quos provident eligendi ipsam et quae, beatae dolorum reprehenderit ipsa nam, exercitationem est quisquam at expedita. Voluptatibus rerum debitis libero.
+            </p>
+        </article>
+    </section>
+    <!-- footer block -->
+    <footer>
+        Bottom site part
+    </footer>
+    <!-- table -->
+    <table border="4" style="width: 100%;">
+        <!-- <div></div> Помилка -->
+         <thead>
+            <tr>
+                <th colspan="2">
+                    First name/
+                    Second name
+                </th>
+                <th>
+                    Mark
+                </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>
+                    User1
+                </td>
+                <td>
+                    Lastname 1
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    User2
+                </td>
+                <td>
+                    Lastname2
+                </td>
+                <td rowspan="2">
+                    3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    User3
+                </td>
+                <td></td>
+            </tr>
+         </tbody>
+    </table>
+    <h3>
+        Form tags
+    </h3>
+    <!-- form block -->
+    <form>
+        <div>
+            <label for="username">
+                User name
+            </label>
+            <input type="text" disabled id="username">
+        </div>
+        <br>
+        <div>
+            <label for="pass">
+                User password
+            </label>
+            <input type="password" id="pass">
+        </div>
+        <br>
+        <div>
+            <label for="skill">
+                Select skill
+            </label>
+            <select id="skill">
+                <!-- <p>div, header, ul ....</p> помилка -->
+                <option value="01">Я вибираю Skill html5</option>
+                <option value="02">Skill css3</option>
+                <option disabled value="03">Skill JS</option>
+                <option value="04">Skill React</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="comment">
+                Comment
+            </label>
+            <textarea disabled cols="30" rows="10" id="comment"></textarea>
+        </div>
+        <br>
+        <div>
+            <ul>
+                <li>
+                    <label for="selfdelivery">Самовивіз</label>
+                    <input type="radio" name="delivery" id="selfdelivery">                    
+                </li>
+                <li>
+                    <label for="postman">Курєр</label>
+                    <input disabled type="radio" name="delivery" id="postman">                    
+                </li>
+                <li>
+                    <label for="urkpost">укр пошта</label>
+                    <input type="radio" name="delivery" id="urkpost">                    
+                </li>
+            </ul>
+            <h4>
+                Transpot
+            </h4>
+            <ul>
+                <li>
+                    <label for="tram">Трамвай</label>
+                    <input type="checkbox" name="tram" id="tram">                    
+                </li>
+                <li>
+                    <label for="car">Машина</label>
+                    <input disabled type="checkbox" name="car" id="car">                    
+                </li>
+                <!-- ctrl, cmnd +D -->
+                <li>
+                    <label for="bus">Автобус</label>
+                    <input type="checkbox" name="bus" id="bus">                    
+                </li>
+            </ul>
+        </div>
+        <div>
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="10" max="150">
+        </div>
+        <input type="submit" value="Відправити форму">
+        <button>
+            Виглядаю як submit
+        </button>
+    </form>
+    <!-- jpg,png,svg,webp -->
+    <img src="img/smile.pn" alt="image smile face">
+    <img src="img/smile.png" alt="image smile face">
+    <!-- <img src="https://i.ytimg.com/vi/OKZFHo5p4VA/maxresdefault коли ви власник" alt="image smile face"> -->
+    <audio controls>
+        <source src="mp3/file_MP3.mp3" type="audio/mpeg">
+    </audio>
+    <video controls width="1520" height="640">
+        <source src="mp4/file_example_MP4.mp4" type="video/mp4">
+    </video>
+
+    <iframe src="https://getbootstrap.com/docs/5.3/components/dropdowns/" width="800" height="600" frameborder="0"></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3mQzvZi5Vyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
