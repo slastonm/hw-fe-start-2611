@@ -1,0 +1,106 @@
+/* tag name */
+h1{
+    /* background-color: black; */
+    color: rgb(49, 130, 5);
+}
+p{
+    background-color: orange;
+}
+a{
+    color: lightblue;
+}
+h3,h4,h5{
+    background-color: darkblue;
+    color: wheat;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+/* DRY don't reapeat yourself */
+
+body section p{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: rgb(16, 196, 227);
+}
+
+#top-title, #sub-top-title{
+    background-color: purple;
+}
+.content-box{
+    width: 380px;
+    margin: 0 auto;
+}
+.light{
+    color: white;
+}
+
+.content-box.light{
+    color: lightcoral;
+}
+.underscore-text{
+    text-decoration: underline;
+}
+.content-box.dark{
+    background-color: black;
+    color: white;
+}
+
+p.content-box{
+    font-size: 20px;
+}
+footer.content-box{
+    padding: 50px;
+    font-size: 24px;
+}
+.red{
+    color: rgb(49, 174, 7);
+}
+.title-color{
+    color: rgb(4, 4, 4);
+}
+.list-block{
+    background-color: blue;
+}
+.list-element{
+    background-color: yellow;
+}
+.first-list-el{
+    font-size: 24px;
+    color: blue;
+}
+.last-list-el{
+    font-size: 26px;
+    color: rgb(225, 13, 232);
+}
+.third-list-el{
+    font-size: 26px;
+    background-color: gray;
+    color: rgb(225, 13, 232);
+}
+
+
+.list-element:first-child{
+    background-color: gray;
+}
+.list-element:nth-child(3){
+    background-color: green;
+}
+.list-element:nth-child(7){
+    background-color: rgb(11, 172, 216);
+}
+.list-element:last-child{
+    background-color: rgb(114, 24, 24);
+}
+*{
+    /* transform: rotate(160deg); */
+    /* text-transform: uppercase; */
+}
+div{
+    
+}
