@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+.agu-display{
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+
+
+.work-sans-100 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.work-sans-900 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    font-family: inherit;
+}
+
+div[class*="container"]{
+    background-color: red;
+    color: white;
+}
+/* img[alt*="logo"] */
+
+
+.card{
+    width: 250px;
+    /* max-width: 800px; */
+    /* min-width: 1200px; */
+    /* height: 200px; */
+    /* max-height: 200px; */
+    min-height: 200px;
+    background-color: grey;
+    /* margin: 14px 18px 25px 45px; */
+    margin-top: 25px;
+    margin-right: 18px;
+    /* margin-right: auto; */
+    margin-bottom: 50px;
+    /* margin-left: 500px; */
+    /* margin-left: auto; */
+    display: inline-block;
+    /* vertical-align: top; */
+    vertical-align: middle;
+    border-radius: 30px;
+    /* block */
+    /* inline */
+    /* display: block; */
+    overflow: hidden;
+    text-align: center;
+}
+.card:hover{
+    background-color: red;
+}
+.card:hover .content{
+    background-color: orange;
+}
+.card:hover h3{
+    background-color: rgb(15, 15, 14);
+    color: white;
+}
+.card img{
+    max-width: 250px;
+}
+.card p{
+    max-height: 100px;
+    max-width: 150px;
+    /* overflow: auto; */
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+a{
+    display: inline-block;
+}
+p{
+    line-height: 1.4;
+}
+.block-span{
+    display: block;
+    background-color: orange;
+    font-size: 20px;
+}
+.content{
+    background-color: lemonchiffon;
+    /* padding: 20px; */
+    /* padding: 20px 25px; */
+    padding: 14px 18px 25px 45px;
+    /* padding-top: 14px;
+    padding-right: 18px;
+    padding-bottom: 25px;
+    padding-left: 45px; */
+}
+.content-container{
+    max-width: 800px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+.magic{
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+
+    text-align: center;
+    width: 250px;
+    background-color: purple;
+    color: white;
+    margin: 0 auto;
+    padding: 50px;
+    /* border-radius: 30px; */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 116px;
+}
+
+button{
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    border: 2px solid transparent;
+    /* border: none; */
+
+}
+button:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+
+}
+.category-item{
+    color: gray;
+}
+.category-item .img-block{
+    background-color: gray;
+}
+
+.category-item.active{
+    color: black;
+}
+.category-item .img-block{
+    background-color: rgb(215, 117, 11);
+}
+
