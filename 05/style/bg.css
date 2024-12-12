@@ -1,0 +1,82 @@
+.smile{
+    /* background-image: url("../img/avatar.png"),url('../img/1.webp'); */
+    background-image: url("../img/avatar.png");
+    
+    /* width: 1480px; */
+    /* height: 1480px; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    border: 2px solid black;
+    background-position: top left;
+    /* background-position: top right; */
+    /* background-position: top center; */
+    /* background-position: center; */
+    /* background-position: bottom center; */
+    /* background-position: bottom left; */
+    /* background-position: top 100px left 250px; */
+    padding-bottom: 550px;
+    /* background-size: 100px 100px; */
+    background-size: cover;
+    /* background-size: contain; */
+
+}
+.smile:hover{
+    background-color: yellow;
+}
+p{
+    /* font-size: 24px;
+    margin: 0 auto;
+    width: 200px; */
+}
+.btn{
+    display: inline-block;
+    width: 88px;
+    height: 88px;
+    background-image: url('../img/sprite-icon-29.jpg');
+    /* background-position: top left; */
+}
+.fb{
+    background-position: top 168px left 0px;
+}
+
+.fb:hover{
+    background-position: top 84px left 0px;
+}
+
+.gmail{
+    background-position: top 168px left -252px;
+}
+
+.gmail:hover{
+    background-position: top 84px left -252px;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+}
+main{
+    min-height: 100vh;
+    background-image: url('../img/bg.jpeg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    background-attachment: fixed;
+}
+header,section{
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.846);
+    margin-bottom: 200px;
+}
+h1{
+    color: rgb(224, 79, 6);
+}
+h1 i{
+    color: blue;
+}
+h2{
+    font-size: 30px;
+    margin: 20px;
+}
