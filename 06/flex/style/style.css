@@ -1,0 +1,130 @@
+/* ::after, ::before */
+
+h1{
+    background-color: yellow;
+    padding: 50px;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+h1::before{
+    content: "";
+    /* display: inline; */
+    /* display: inline-block; */
+    display: block;
+    /* width: 100px; */
+    height: 10px;
+    background-color: black;
+    margin-right: 15px;
+    /* position: absolute;
+    top: 10px;
+    left: 0; */
+}
+h1::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(94, 175, 8);
+    margin-left: 15px;
+
+
+}
+
+.item{
+    padding: 20px;
+    border: 1px solid red;
+    background-color: gray;
+    width: 150px;
+    /* margin-bottom: 50px; */
+    /* order: ; */
+}
+.item:first-child{
+    align-self: stretch;
+}
+.item:nth-child(2){
+    background-color: rgb(232, 72, 72);
+    height: 140px;
+    font-size: 20px;
+    order: 5;
+    align-self: flex-start;
+}
+.item:nth-child(3){
+    background-color: rgb(230, 223, 6);
+    height: 250px;
+    font-size: 35px;
+    order: 4;
+    align-self: flex-end;
+
+}
+.item:nth-child(4){
+    background-color: rgb(39, 213, 5);
+    height: 350px;
+    font-size: 55px;
+}
+.item:nth-child(5){
+    background-color: rgb(4, 142, 55);
+}
+.item:nth-child(6){
+    background-color: rgb(49, 157, 245);
+    order: -1;
+}
+.item:nth-child(7){
+    background-color: rgb(6, 67, 189);
+}
+.item:nth-child(8){
+    background-color: rgb(227, 14, 184);
+}
+.item:nth-child(9){
+    background-color: rgb(8, 129, 60);
+}
+.item:nth-child(10){
+    background-color: rgb(119, 12, 189);
+}
+
+.d-inline-flex{
+    display:inline-flex;
+    background-color: orange;
+}
+
+.d-flex{
+    margin-top: 50px;
+    display: flex;
+    background-color: aqua;
+    width: 1200px;
+    /* height: 350px; */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* display: flex; settings*/
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-flow: flex-direction + wrap; */
+    /* flex-flow: row-reverse wrap; */
+
+    /* contetn horizontal */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* content vertical */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: baseline; */
+    /* row-gap: 50px;
+    column-gap: 50px; */
+}
+

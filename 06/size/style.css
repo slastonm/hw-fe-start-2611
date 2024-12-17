@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    /* max-width: 1200px; */
+    /* width: 100%; */
+    width: 62.5%;
+    /* margin: 50px auto; */
+    background-color: yellow;
+}
+/* ctrl+shift+m */
+.d-flex{
+    /* max-width: 1320px; */
+    width: 68.75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.item{
+    background-color: blue;
+    border: 1px solid rgb(66, 177, 5);
+    height: 100px;
+    /* 100/4=25 */
+    /* width: 25%; */
+    width: 31.12%;
+    color: white;
+}
