@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100%;
+}
+/* vh vw */
+section{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 50px; */
+    /* min-height: 100vh; */
+    height: 100vh;
+    /* font-size: 70px; */
+    font-size: 5vw;
+}
+section:nth-child(2){
+    background-color: rgb(73, 73, 183);
+}
+section:nth-child(3){
+    background-color: rgb(13, 125, 32);
+}
+
+.percentage{
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}.vw-size{
+    width: 50vw;
+    height: 100px;
+    background-color: blue;
+}
+.container{
+    width: 50%;
+    border: 2px solid white;
+}
