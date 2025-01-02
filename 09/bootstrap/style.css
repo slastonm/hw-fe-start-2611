@@ -1,0 +1,22 @@
+header{
+    background-color: green;
+}
+.my-block{
+    display: flex;
+}
+footer{
+    background-color: orange;
+    padding: 50px 100px;
+}
+.col-sm-12{
+    /* Помилка */
+}
+.exlusive-block{
+    width: 76%;
+}
+
+@media(min-width:1440px){
+    .exlusive-block{
+        width: 86%;
+    }
+}
